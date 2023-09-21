@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --nav-color1: #1F2134;
+  --heading1: #F5F5F5;
+  --heading2: #61A5F6;
+  --bodycolor1: #0C0F13;
+  --navh1: 1.8rem;
+  --navul: 1.1rem;
+  --bodyfont1: 2rem;
+  --bodyfont2: 4rem;
+  --contentmargin: 2rem 5rem;
+}
+
+@keyframes hover {
+  0% {
+    background-color: var(--heading2);
+    color: var(--heading1);
+  }
+
+  100% {
+    background-color: var(--heading2);
+    color: var(--heading1);
+  }
+}
